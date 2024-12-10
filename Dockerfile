@@ -7,6 +7,7 @@ WORKDIR /app
 # 复制代码到容器
 COPY app /app
 
+
 # 安装依赖
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
